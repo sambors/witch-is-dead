@@ -1,0 +1,102 @@
+:root {
+    --clever-color: #2F5C8A;
+    --fierce-color: #B74A23;
+    --sly-color: #89AC2A;
+    --quick-color: #BF8B01;
+  }
+
+html {
+	height: 100%;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+	background-color: #fff;
+}
+
+/* button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+} */
+
+.container {
+	display: grid;
+	padding: 1em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1{
+    font-family: 'Pirata One', cursive;
+    font-size: 64px;
+}
+
+h2{
+    font-family: 'Germania One', sans-serif;
+    font-weight: normal;
+    font-size: 28px;
+}
+
+span.dramatic {
+    font-family: 'Germania One', cursive;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.village-type ol {
+    columns: 2;
+}
+
+.inactive {
+    color: #ddd;
+}
+
+.active {
+    color #4A3E30;
+}
+
+.witch-hunter-type ol {
+    column-count: 2;
+    column-gap: 12px;
+}
+
+.character-traits {
+    display: grid;
+    grid-template-columns: minmax(auto, 1fr) 4fr;
+    column-gap: 8px;
+    row-gap: 18px;
+    align-items: baseline;
+}
+
+.trait-name {
+    font-family: 'Germania One', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    color: #fff;
+    padding: 8px;
+}
+
+#clever-trait {
+    background-color: var(--clever-color);
+}
+
+#fierce-trait {
+    background-color: var(--fierce-color);
+}
+
+#sly-trait {
+    background-color: var(--sly-color);
+}
+
+#quick-trait {
+    background-color: var(--quick-color);
+}
+

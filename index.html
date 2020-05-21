@@ -1,0 +1,84 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>The Witch is Dead</title>
+	<meta name="description" content="The Witch is Dead">
+	<meta name="author" content="sambors">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Germania+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>The Witch is Dead</h1>
+        <p>Once upon a time there was a kind and wise and beautiful witch who lived in the forest with her familiars, and her life was peaceful and happy until a <span class="dramatic">fucking witch hunter</span> broke into her cottage and dragged her out and <span class="dramatic">fucking murdered her</span> and now she's <span class="dramatic">dead</span>. But if you get revenge and kill him and bring his eyes to her corpse within a week she'll come back to life. Or so you've heard. Even if it doesn't work, at least he's dead.</p>
+        <p>The Witch Hunter has retreated to the village, the <span class="dramatic">fucking coward</span>; get him.</p>
+
+        <div class="setup">
+            <div class="village-type">
+                <h2>The village is:</h2>
+                <ol id="village-type-list">
+                    <li>Under the thumb of the baron</li>
+                    <li>Filled with cheery gnomes</li>
+                    <li>Controlled by a creepy cult</li>
+                    <li>Devoutly religious</li>
+                    <li>Incredibly superstitious</li>
+                    <li>At war with forest tribes</li>
+                    <li>Built around a wizard college</li>
+                    <li>Full of hardy mining folk</li>
+                    <li>Shady and dangerous</li>
+                    <li>Oppresively perfect</li>
+                </ol>
+                <button class="village-type-button" type="button" onclick="createVillage()">Roll (2x)</button>
+            </div>
+            <div class="witch-hunter-type">
+             <h2>The witch hunter is:</h2>
+             <ol id="witch-hunter-type-list">
+                 <li>Armored and tough</li>
+                 <li>Wizened and wise</li>
+                 <li>Drunk and violent</li>
+                 <li>Pious and aggressive</li>
+                 <li>Guarded and cowardly</li>
+                 <li>Magical and jealous</li>
+                 <li>Clever and cruel</li>
+                 <li>Duplicitous</li>
+                 <li>Jolly and well-meaning</li>
+                 <li>Headstrong and wild</li>
+             </ol>
+             <button class="witch-hunter-type-button" type="button" onclick="createWitchHunter()">Roll</button>
+            </div>
+        </div>
+
+        <h2>You are a cute woodland animal.</h2>
+        <h2>You have four traits:</h2>
+        <div class="character-traits">
+            <!-- <div class="trait"> -->
+                <div class="trait-name" id="clever-trait">Clever</div>
+                <div class="trait-description">Interact with humans and understand them</div>
+            <!-- </div> -->
+            <!-- <div class="trait"> -->
+                <div class="trait-name" id="fierce-trait">Fierce</div>
+                <div class="trait-description">Scare, drag, push, carry, bite, scratch...</div>
+            <!-- </div> -->
+            <!-- <div class="trait"> -->
+                <div class="trait-name" id="sly-trait">Sly</div>
+                <div class="trait-description">Sneak, steal, hide...</div>
+            <!-- </div> -->
+            <!-- <div class="trait"> -->
+                <div class="trait-name" id="quick-trait">Quick</div>
+                <div class="trait-description">Outpace, climb, evade...</div>
+            <!-- </div> -->
+            
+            <div class="character-trait-roll-area">
+
+            </div>
+        </div>
+
+        
+    </div>
+    <script src="script.js"></script>
+</body>
